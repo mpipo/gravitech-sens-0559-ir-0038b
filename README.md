@@ -4,13 +4,14 @@ Library for Gravitech's "IR Remote Control 0038B" (rehosted)
 ## Overview
 - Product name: IR Infrared Receiver Module with Remote
 - Product ID: SENS-0559
+- [Product page](https://www.gravitechthai.com/product_detail.php?d=719)
 - Distributor: Gravitech
 - Manufacturer: Geeetech
 
 ## Why?
 The library archive from [here](https://www.gravitechthai.com/product_detail.php?d=719) is corrupted.
 
-I "fixed" it using
+I "recovered" the contents using
 ```
 zip -F Gtech_IRremote_Library.zip
 ```
