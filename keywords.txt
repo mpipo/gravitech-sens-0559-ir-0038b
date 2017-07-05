@@ -1,0 +1,3 @@
+Gtech_IRremote	KEYWORD1
+setup	KEYWORD2
+getIR	KEYWORD2
