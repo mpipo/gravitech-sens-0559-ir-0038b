@@ -1,6 +1,22 @@
 # gravitech-sens-0559-ir-0038b
 Library for Gravitech's "IR Remote Control 0038B" (rehosted)
 
+## IMPORTANT
+### This may save you countless pills of anything with Paracetamol in it!
+As of July 2017, Gravitech updated the product WITHOUT updating the info page and documentation!
+
+The pin layouts are *printed*, from left to right, front-facing, `-| |s`
+This is **incorrect!**
+
+It's *actually* `s| |-`!
+That means the wiring should be
+```
+SIGNAL_OUTPUT | 5V | GND
+```
+
+The **RED LED** on the **LEFT** should light up **BRIGHTLY!**
+(Also, it needs 5V, not 3v3 or it won't work!)
+
 ## Overview
 - Product name: IR Infrared Receiver Module with Remote
 - Product ID: SENS-0559
